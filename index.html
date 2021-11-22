@@ -1,34 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <style>
+            body {
+                font-size: large;
+                background-color: #ACB3A8;
+            }
+            #nome {
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            }
+            #sobre {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            #estado {
+                font-weight: bold;
+            }
+            #descricao {
+                background-color: #ACB3A8;
+            }
+            hr {
+                color: black;
+            }
+            .lista {
+                font-size: 18px;
+            }
+        </style>
         <meta charset="UTF-8">
         <title>Portifolio Kaique Coelho</title>
     </head>
     <body>
-        <h1 id="2">Kaique de Sousa Coelho</h1>
+        <h1 id="nome">Kaique de Sousa Coelho</h1>
         <img src="pp.jpeg" width="330px" alt="Foto do Kaique" id="1">
         <hr>
-        <h2 id="3">Descrição</h2>
+        <h2 id="descricao">Descrição</h2>
         <hr>
         <h3>Sobre</h3>
         <hr>
-        <p>Meu nome é <a href="#1">Kaique Coelho</a>, moro em São Paulo e sou estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/" target="_blank">Trybe!</a></b></p>
-        <p>Minha banda favorita é <a href="https://pt.wikipedia.org/wiki/Linkin_Park" target="_blank">Linkin Park</a>!</p>
+        <p id="sobre">Meu nome é <a href="#1">Kaique Coelho</a>, moro em <strong>São Paulo</strong> e sou estudante de <strong>Desenvolvimento Web</strong>  na <a href="https://www.betrybe.com/" target="_blank">Trybe!</a></b></p>
+        <p id="sobre">Eu adoro música e minha banda favorita é <a href="https://pt.wikipedia.org/wiki/Linkin_Park" target="_blank">Linkin Park</a>!</p>
         <hr>
-        <h3 id="4">Habilidades</h3>
+        <h3 id="habilidades">Habilidades</h3>
         <hr>
         <ul>
-            <li><strong>Inglês Avançado</strong></li>
-            <li>Conhecimento em Unix/Bash</li>
-            <li><em>Aprendendo HTML e CSS</em></li>
+            <li class="lista"><strong>Inglês Avançado</strong></li>
+            <li class="lista">Conhecimento em Unix/Bash</li>
+            <li class="lista"><em>Aprendendo HTML e CSS</em></li>
         </ul>
         <hr>
         <h3>Índice</h3>
         <hr>
         <ol>
-            <li><a href="#2">Nome</a></li>
-            <li><a href="#3">Descrição</a></li>
-            <li><a href="#4">Habilidades</a></li>
+            <li><a href="#nome">Nome</a></li>
+            <li><a href="#descricao">Descrição</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
         </ol>
     </body>
 </html>
