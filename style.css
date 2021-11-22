@@ -3,7 +3,8 @@ body {
     background-color: #b4b8b596;
 }
 
-#nome span{
+#nome {
+    text-align: center;
     padding: 10px 20px;
     border-radius: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -29,7 +30,8 @@ body {
     font-weight: bold;
 }
 
-#descricao span{
+#descricao{
+    text-align: center;
     background-color: #959695;
     border-radius: 10px;
     padding: 2px 5px;
@@ -46,7 +48,7 @@ body {
 #foto {
     border-radius: 10px;
     position: relative;
-    left: 60px;
+    left: 880px;
 }
 
 h3 span{
