@@ -1,111 +1,57 @@
 body {
     font-size: large;
     background-color: #b4b8b596;
+    margin: 20px;
+    font-family: sans-serif;
 }
 
 #nome {
+    background-color: rgb(160, 160, 160);
     text-align: center;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #959695;
-}
-
-.textosobre {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 18%;
-    left: 30%;
-
-}
-
-.textosobre2 {
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    top: 27%;
-    left: 30%;
-    
-}
-#habilidades span {
-    background-color: #959695;
-    border-radius: 10px;
-    padding: 2px 5px;
-    position: absolute;
-    left: 47%;
-    top: 28%;
-}
-#estado {
-    font-weight: bold;
-}
-
-#descricao span{
-    text-align: center;
-    background-color: #959695;
-    border-radius: 10px;
-    padding: 2px 5px;
-    position: absolute;
-    left: 47%;
-}
-
-.lista li:nth-child(1){
-    font-size: 18px;
-    position: absolute;
-    left: 45%;
-    top: 33%;
-}
-.lista li:nth-child(2){
-    font-size: 18px;
-    position: absolute;
-    left: 45%;
-    top: 36%;
-}
-.lista li:nth-child(3){
-    font-size: 18px;
-    position: absolute;
-    left: 45%;
-    top: 39%;
-}
-.lista2 
-
-#indice{
-    text-align: center;
-    background-color: #959695;
-    border-radius: 10px;
-    padding: 2px 5px;
-    position: absolute;
-    left: 47%;
 }
 
 #foto {
-    position: relative;
     float: left;
     padding: 10px;
     background-color: black;
-    left: 10%;
 }
-
-h3 span{
-    background-color: #959695;
-    border-radius: 10px;
-    padding: 2px 5px;
-}
-
 .image-container {
-    height: 330px;
+    height: 310px;
     position: relative;
 }
-.conteudoindice {
-    border-radius: 10px;
-    padding: 2px 5px;
+
+#descricao {
     position: absolute;
-    left: 42.7%;
-    top: 45%;
+    top: 0%;
+    left: 17%;
+    background-color:rgb(160, 160, 160);
+    padding: 2px 10px;
+    border-radius: 50px;
 }
-.conteudoindice h3 {
-    background-color: #959695;
-    border-radius: 10px;
-    padding: 2px 5px;
+
+#textodescricao {
     position: absolute;
-    left: 80%;
-    top: -40%;
+    top: 16%;
+    left: 17%;
+}
+
+#habilidades {
+    position:absolute;
+    left: 17.8%;
+    top: 22%;
+    padding: 2px 8px;
+    background-color:rgb(160, 160, 160);
+    border-radius: 50px;
+}
+
+.listahabilidades {
+    position:absolute;
+    left: 16.8%;
+    top: 27%;
+}
+
+#indice span{
+    padding: 2px 8px;
+    background-color:rgb(160, 160, 160);
+    border-radius: 50px;
 }
