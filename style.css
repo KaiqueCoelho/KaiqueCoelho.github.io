@@ -11,48 +11,86 @@ body {
     background-color: #959695;
 }
 
-#sobre span {
-    background-color: #959695;
-    border-radius: 10px;
-    padding: 2px 5px;
-}
-
 .textosobre {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 18%;
+    left: 30%;
+
 }
 
+.textosobre2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    
+}
 #habilidades span {
     background-color: #959695;
     border-radius: 10px;
     padding: 2px 5px;
+    position: absolute;
+    left: 47%;
+    top: 28%;
 }
 #estado {
     font-weight: bold;
 }
 
-#descricao{
+#descricao span{
     text-align: center;
     background-color: #959695;
     border-radius: 10px;
     padding: 2px 5px;
+    position: absolute;
+    left: 47%;
 }
 
-.lista {
+.lista li:nth-child(1){
     font-size: 18px;
+    position: absolute;
+    left: 45%;
+    top: 33%;
 }
+.lista li:nth-child(2){
+    font-size: 18px;
+    position: absolute;
+    left: 45%;
+    top: 36%;
+}
+.lista li:nth-child(3){
+    font-size: 18px;
+    position: absolute;
+    left: 45%;
+    top: 39%;
+}
+.lista2 
 
-#indice span{
+#indice{
+    text-align: center;
     background-color: #959695;
+    border-radius: 10px;
+    padding: 2px 5px;
+    position: absolute;
+    left: 47%;
 }
 
 #foto {
-    border-radius: 10px;
     position: relative;
-    left: 790px;
+    float: left;
+    padding: 10px;
+    background-color: black;
+    left: 10%;
 }
 
 h3 span{
     background-color: #959695;
     border-radius: 10px;
     padding: 2px 5px;
+}
+
+.image-container {
+    height: 330px;
+    position: relative;
 }
