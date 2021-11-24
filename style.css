@@ -25,5 +25,13 @@ ul li:nth-child(odd) {
 
 #indice, #descricao, #habilidades {
     
-    background-color:  rgb(160, 160, 160);;
+    background-color:  rgb(160, 160, 160);
+}
+
+#indice {
+    text-align: center;
+}
+
+aside {
+    float: right;
 }
