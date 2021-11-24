@@ -18,3 +18,12 @@ body {
     padding: 5px;
     background-color: black;
 }
+
+ul li:nth-child(odd) {
+    background-color: rgb(192, 190, 190);    
+}
+
+#indice, #descricao, #habilidades {
+    
+    background-color:  rgb(160, 160, 160);;
+}
